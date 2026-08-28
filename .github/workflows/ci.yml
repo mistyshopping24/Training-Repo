@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Show environment
+        run: |
+          echo "Hello from GitHub Actions"
+          uname -a
+          pwd

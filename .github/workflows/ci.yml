@@ -18,6 +18,3 @@ jobs:
 
       - name: List files
         run: ls -la
-
-      - name: list contents of index.html
-        run: cat src/index.html
